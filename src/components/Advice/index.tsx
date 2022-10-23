@@ -25,6 +25,12 @@ export function Advice(){
         <div className={style.advice}>
             <h1 className={style['advice-title']}>Advice #{advice?.id}</h1>
             <p className={style['advice-text']}>{advice?.advice}</p>
+            <div className={style.division}>
+                <span className={style.line}></span>
+                <span></span>
+                <span></span>
+                <span className={style.line}></span>
+            </div>
         </div>
     )
 }
