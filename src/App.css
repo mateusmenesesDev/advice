@@ -1,7 +1,8 @@
 body{
     background-color: var(--neutral-grayish-blue);
-}
-
-.App{
-    background-color: var(--neutral-blue);
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
