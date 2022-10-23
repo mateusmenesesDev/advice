@@ -9,5 +9,6 @@
 }
 
 .refresh:hover{
-    background-color: var(--primary-cyan);
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 25px var(--primary-neon));
 }
