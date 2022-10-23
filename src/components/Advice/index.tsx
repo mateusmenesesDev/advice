@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Button, ProgressBar } from 'react-bootstrap'
-
 import { adviceApi } from '../../api/advice'
 import style from './Advice.module.css'
-
 import { Refresh } from './Refresh'
 
 export function Advice(){
@@ -34,10 +31,6 @@ export function Advice(){
                 </div>
                 <div className={style['refresh-button']}><Refresh refresh={loadAdvice}/></div>
             </div>
-            {refresh===true && 
-                <ProgressBar now={100} variant='sucess'/>
-            }
-            
         </>
         
     )
