@@ -15,7 +15,7 @@ Solução para o desafio proposto em: [Advice generator app challenge on Fronten
 
 ## Resumo
 
-### TO Desafio
+### O Desafio
 
 Requisitos do projeto:
 
