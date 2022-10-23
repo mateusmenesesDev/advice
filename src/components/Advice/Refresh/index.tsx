@@ -1,10 +1,13 @@
 import style from './Refresh.module.css'
 import { BiRefresh } from 'react-icons/bi';
 
-export function Refresh(){
+type Refresh = {
+    refresh: ()=>void
+}
+export function Refresh({refresh}:any){
     return (
         <div className={style.refresh}>
-            <BiRefresh size={32}></BiRefresh>
+            <BiRefresh size={32} onClick={refresh}/>
         </div>
     )
 }

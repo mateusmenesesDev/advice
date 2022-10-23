@@ -1,12 +1,7 @@
-import axios from "axios";
-
-const http = axios.create({
-    baseURL: 'https://api.adviceslip.com/advice',
-  });
-
 export const adviceApi = {
     getAdvice: async ()=>{
-        const response = await http.get('')
-        return response.data.slip
+        const http = await fetch('https://api.adviceslip.com/advice', {cache: 'no-store'})
+        const response = await http.json()
+        return response.slip
     }
 }

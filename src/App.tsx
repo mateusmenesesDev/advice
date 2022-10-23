@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css';
 import { Advice } from './components/Advice';
+import { ProgressBar } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   return (
-      <Advice/>
+      <div>
+        <Advice/>
+        
+      </div>
   );
 }
 
