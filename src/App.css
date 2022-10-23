@@ -1,0 +1,7 @@
+body{
+    background-color: var(--neutral-grayish-blue);
+}
+
+.App{
+    background-color: var(--neutral-blue);
+}
